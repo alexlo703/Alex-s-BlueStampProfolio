@@ -41,22 +41,14 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
-# First Milestone
+# First Milestone: Setting up my Pi and taking picutres
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7xRiVksCcC4?si=a_GlIJvR1XKjTCaZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my first milestone, I began by setting up my Raspberry Pi. The components I used included the Pi itself, a camera module, capture card, mouse, keyboard, and a micro HDMI to HDMI cable. First, I downloaded the operating system software onto the SD card. Then, I connected all the necessary devices incldung mouse, keyboard, power cord, and capture card. Next, I attached the camera module to the Pi. This step presented one of the main challenges I faced: the camera wasn’t working for several hours. After troubleshooting, I discovered that the issue was a loose connection—the camera wasn’t inserted deep enough into the port. I had to remove the Pi's case in order to secure the connection properly. My goal for the upcoming week is to begin coding and use the provided training model to enable the camera to detect objects.
 
 
-# Starter Project
-
-**Don't forget to replace the text below with the embedding for starter video video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+# Starter Project: JitterBug
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jvyMFoV6fmQ?si=jYPeiz33Uxprydh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
