@@ -80,9 +80,16 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
+| Rasberry Pi | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Camera Module | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Headphones | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Glasses | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| CanaKit raspberry Pi 4 starter kit | What the item is used for | $Price | <a href="https://www.amazon.com/CanaKit-Raspberry-Pi-Starter-Kit/dp/B07V2B4W63/ref=sr_1_3?crid=2ESN7MMEDJ6J9&dib=eyJ2IjoiMSJ9.yMZqFlZ5jzlaNE8OMzrM0b662J8iglskUJLh2UCEXv9iiTf-HxPv5EK8gYOUiJ6GO518wQmOc8OjXk0Y666Oo9OzxD1zRF-f9I2UGLhRJAn--McjNKdaPY0QX_Sz1dibGFc5ChyoFD9EAlXC9T486Tgg1RWIcUu_Xcl341mKekBnUi9KZqjNOmsjxiVsiG7Q1RjFYbzcS1s8VWijfllJ7yNrjTCkFJkbPBQGwk5XzHdaddbOorRLH6znvQSigmt9DHd6lE9d3KS2toTJDXYiei9nGzVtmLELW6YcefcoSS0.eJLApTyUgxoCePcskCE1oNkM4MKL0WZEUjzwYirq3Uo&dib_tag=se&keywords=canakit%2Braspberry%2Bpi%2B4%2Bstarter%2Bkit&qid=1750719168&s=electronics&sprefix=canakit%2Brapsbeery%2Bpi%2B4%2Bstarter%2Bkit%2Celectronics%2C125&sr=1-3&th=1"> Link </a> |
+| Canakit USB-C Power Supply | What the item is used for | $Price | <a href="https://www.amazon.com/CanaKit-Raspberry-Power-Supply-USB-C/dp/B07TYQRXTK"> Link </a> |
+| CanaKit Raspberry Pi 4 Case | What the item is used for | $Price | <a href="https://www.amazon.com/iUniker-Raspberry-Aluminium-Heatsink-Supply/dp/B07D3S4KBK/ref=pd_bxgy_thbs_d_sccl_2/143-2944956-3619348?pd_rd_w=Zbahh&content-id=amzn1.sym.de9a1315-b9df-4c24-863c-7afcb2e4cc0a&pf_rd_p=de9a1315-b9df-4c24-863c-7afcb2e4cc0a&pf_rd_r=8W9MDS8C1A6AG6HF0GWE&pd_rd_wg=rzCox&pd_rd_r=d3418ecd-a978-4529-becc-d2f7df4319f7&pd_rd_i=B07D3S4KBK&th=1"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
