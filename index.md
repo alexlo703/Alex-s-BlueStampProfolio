@@ -43,7 +43,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone: Setting up my Pi and taking picutres
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7xRiVksCcC4?si=a_GlIJvR1XKjTCaZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qkuLk5L94jU?si=lQ4hLNNZCEYkl45Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my first milestone, I began by setting up my Raspberry Pi. The components I used included the Pi itself, a camera module, capture card, mouse, keyboard, and a micro HDMI to HDMI cable. First, I downloaded the operating system software onto the SD card. Then, I connected all the necessary devices incldung mouse, keyboard, power cord, and capture card. Next, I attached the camera module to the Pi. This step presented one of the main challenges I faced: the camera wasn’t working for several hours. After troubleshooting, I discovered that the issue was a loose connection—the camera wasn’t inserted deep enough into the port. I had to remove the Pi's case in order to secure the connection properly. My goal for the upcoming week is to begin coding and use the provided training model to enable the camera to detect objects.
 
