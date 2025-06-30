@@ -15,11 +15,14 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](logo.svg)
   
-# Final Milestone
+# Final Milestone: Modification
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+I started my modification by searching for types of sports ball data set. I found one that had ten differet kinds of sport balls, with 250 plus images samples. This allows me to train the model and made it extremely accurate.
+
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -32,7 +35,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hrnL3eaF_RA?si=hmuBEDchvEbqhB54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my second milestone, I was able to add the object detection and text to speech to work. I downloaded TensorFlow including the the detection model. It model also came with a text to speech feature where it will say the object it is confident in detecting. I was able to plug in a headphone into my raspberry pi and allowed it to work. Some challenges was that my raspberry pi was very bugging. This made me restart the pi mulitple times. For my final milestone, I would be making modification. I would have to attach the device to my glasses. I also have ideas for modification like an notification for how much calories you are
+For my second milestone, I was able to add the object detection and text to speech to work. I downloaded TensorFlow including the the detection model. It model also came with a text to speech feature where it will say the object it is confident in detecting. I was able to plug in a headphone into my raspberry pi and allowed it to work. Some challenges was that my raspberry pi was very bugging. This made me restart the pi mulitple times. For my final milestone, I would be making modification. I would have to attach the device to my glasses and come up with some ideas to enhance my project.
 
 
 
