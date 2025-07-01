@@ -60,16 +60,130 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+import cv2
+import numpy as np
+from tflite_runtime.interpreter import Interpreter
+from PIL import Image
+import time
+from picamera2 import Picamera2, Preview
+picam2 = Picamera2()
+picam2.start_preview(Preview.NULL)
 
-void loop() {
-  // put your main code here, to run repeatedly:
 
-}
+
+# --- Load labels from file ---
+def load_labels(label_path):
+    with open(label_path, 'r') as f:
+        return [line.strip() for line in f.readlines()]
+
+
+
+
+# --- Set the input tensor for the interpreter ---
+def set_input_tensor(interpreter, image):
+    input_details = interpreter.get_input_details()[0]
+    interpreter.set_tensor(input_details['index'], image)
+
+
+
+
+# --- Run inference and return top result ---
+def classify_image(interpreter, image):
+    set_input_tensor(interpreter, image)
+    interpreter.invoke()
+
+
+
+
+    output_details = interpreter.get_output_details()[0]
+    output = interpreter.get_tensor(output_details['index'])[0]
+
+
+
+
+    top_result = np.argmax(output)
+    return top_result, output[top_result]
+
+
+# --- Setup paths â
+#Adjust Paths as needed
+MODEL_PATH = "/home/alex/model_unquant.tflite"
+LABEL_PATH = "/home/alex/labels.txt"
+
+
+# --- Load model and allocate tensors ---
+interpreter = Interpreter(MODEL_PATH)
+interpreter.allocate_tensors()
+input_details = interpreter.get_input_details()
+_, height, width, _ = input_details[0]['shape']
+
+
+
+
+# --- Load labels ---
+labels = load_labels(LABEL_PATH)
+
+
+
+
+# --- Initialize Picamera2 ---
+
+picam2.preview_configuration.main.size = (800, 800)
+picam2.preview_configuration.main.format = "RGB888"
+picam2.configure("preview")
+picam2.start()
+
+
+
+
+# --- Main loop ---
+print("Starting camera inference. Press 'q' to quit.")
+while True:
+    frame = picam2.capture_array()
+
+
+
+
+    # Preprocess frame for model
+    image = cv2.resize(frame, (width, height))
+
+
+
+
+    image = image.astype(np.float32) / 255.0
+    image = np.expand_dims(image, axis=0)
+
+
+
+
+    #label_id is the index of the predicted label, prob is the confidence score
+    label_id, prob = classify_image(interpreter, image)
+    label_text = f"{labels[label_id]} ({prob:.2f})"
+
+
+
+
+    # Display result on image
+    cv2.putText(frame, f"{label_text}", (10, 30),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
+
+
+
+
+    cv2.imshow("Picamera2 - TFLite eClassification", frame)
+
+
+
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+
+
+
+cv2.destroyAllWindows()
+picam2.stop()
+
 ```
 
 # Bill of Materials
