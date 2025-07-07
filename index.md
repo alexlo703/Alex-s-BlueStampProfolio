@@ -10,11 +10,11 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](AlexnaderL.heic)
+![Headstone Image](AlexanderL.heic)
   
 # Final Milestone: Modification
 
-r
+
 
 I started my modification by searching for types of sports ball data set. I found one that had ten differet kinds of sport balls, with 250 plus images samples. This allows me to train the model and made it extremely accurate. I h
 
