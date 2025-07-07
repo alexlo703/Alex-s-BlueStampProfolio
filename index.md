@@ -14,9 +14,7 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
   
 # Final Milestone: Modification
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+r
 
 I started my modification by searching for types of sports ball data set. I found one that had ten differet kinds of sport balls, with 250 plus images samples. This allows me to train the model and made it extremely accurate. I h
 
