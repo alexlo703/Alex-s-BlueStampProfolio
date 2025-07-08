@@ -8,7 +8,7 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
 |:--:|:--:|:--:|:--:|
 | Alex L | Leigh High School | Electrical Engineering | Incoming Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+
 
 ![Headstone Image](AlexanderL_(2).jpg)
   
@@ -16,14 +16,14 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
 
 
 
-I started my modification by searching for types of sports ball data set. I found one that had ten differet kinds of sport balls, with 250 plus images samples. This allows me to train the model and made it extremely accurate. I h
+For my final milestone, I plan to make my smart glasses more about sports. I started with different types of balls for it to identify. To do this, I searched up on google "types of sport balls dataset". I was able to find two different data set link in other resources. The two dataset combined had about 350+ picture for each types of balls. I put all the picture into teachable machines, teaching my model to identify the different types. I then use the code below to use the model on my raspberry pi. Some challenges I had was that there weren't a lot of pictures and had to find more of it. The picture were also not accurate as some of it had other types of balls it in. I had to spend time delete all the incorrect images from the model. 
 
 
-For your final milestone, explain the outcome of your project. Key details to include are:
+<!--For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What you hope to learn in the future after everything you've learned at BSE-->
 
 # Second Milestone: Dectection and Text to Speech
 
@@ -45,7 +45,7 @@ For my first milestone, I began by setting up my Raspberry Pi. The components I 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jvyMFoV6fmQ?si=jYPeiz33Uxprydh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my starter project, it is a JitterBug. The componenets of this project are the on/off switch, led lights, and the vibrator motor. WHen you click the on switch, the current allows the led lights to turn on. It also makes the vibrator starts vibrating, making the legs move, creating a forword motion. I ran into some challenges along the way espcially in soldering and allowing it to connect.
+For my starter project, I did the JitterBug. There are many componenets to this project, including  switch, led lights, and the vibrator motor. The way it work is by clikcing on the switch. This allow current to be pass through to led lights, making them light up. This represents the eyes of the bug. Currents are also going to the vibrator. The vibrator are connected to the the legs of the bug. The constant shaking allows the bug to move forward. The main challenge of this project was soldering, which was new to me. I had never solder before so it took some time to learn. But after I got used to soldering, the project was pretty straight forward.
 
 
 # Schematics 
@@ -195,8 +195,8 @@ picam2.stop()
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Sports Ball Dataset]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://www.kaggle.com/datasets/mdkabinhasan/sports-ball-dataset))
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
+- [Sports Ball Dataset]((https://www.kaggle.com/datasets/mdkabinhasan/sports-ball-dataset))
+- [Example 2]((https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification))
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 
