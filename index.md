@@ -33,7 +33,6 @@ For my modifications, I plan to make my smart glasses more about sports. I start
 For my second milestone, I was able to add the object detection and text to speech to work. I downloaded TensorFlow including the the detection model. It model also came with a text to speech feature where it will say the object it is confident in detecting. I was able to plug in a headphone into my raspberry pi and allowed it to work. Some challenges was that my raspberry pi was very bugging. This made me restart the pi mulitple times. For my final milestone, I would be making modification. I would have to attach the device to my glasses and come up with some ideas to enhance my project.
 
 
-
 # First Milestone: Setting up my Pi and taking picutres
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qkuLk5L94jU?si=lQ4hLNNZCEYkl45Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
