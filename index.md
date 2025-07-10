@@ -4,7 +4,7 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
 
 
 
-| **Engineer** | **School** | **Area of Interest** | **Grade* |
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Alex L | Leigh High School | Electrical Engineering | Incoming Sophomore
 
@@ -12,11 +12,11 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
 
 ![Headstone Image](AlexanderL_(2).jpg)
   
-# Final Milestone: Modification
+# Final Milestone: Putting Everything Together and Modifications.
 
+To put everything togehter, I had to attach the raspberry pi and camera to my glass. To do this, I first 3D printed out a case that I built for the camera. My case allowed the camera to slide into the case, making it easier to attach to the glasses. 
 
-
-For my final milestone, I plan to make my smart glasses more about sports. I started with different types of balls for it to identify. To do this, I searched up on google "types of sport balls dataset". I was able to find two different data set link in other resources. The two dataset combined had about 350+ picture for each types of balls. I put all the picture into teachable machines, teaching my model to identify the different types. I then use the code below to use the model on my raspberry pi. Some challenges I had was that there weren't a lot of pictures and had to find more of it. The picture were also not accurate as some of it had other types of balls it in. I had to spend time delete all the incorrect images from the model. 
+For my modifications, I plan to make my smart glasses more about sports. I started with different types of balls for it to identify. To do this, I searched up on google "types of sport balls dataset". I was able to find two different data set link in other resources. The two dataset combined had about 350+ picture for each types of balls. I put all the picture into teachable machines, teaching my model to identify the different types. I then use the code below to use the model on my raspberry pi. Some challenges I had was that there weren't a lot of pictures and had to find more of it. The picture were also not accurate as some of it had other types of balls it in. I had to spend time delete all the incorrect images from the model. 
 
 
 <!--For your final milestone, explain the outcome of your project. Key details to include are:
@@ -48,11 +48,10 @@ For my first milestone, I began by setting up my Raspberry Pi. The components I 
 For my starter project, I did the JitterBug. There are many componenets to this project, including  switch, led lights, and the vibrator motor. The way it work is by clikcing on the switch. This allow current to be pass through to led lights, making them light up. This represents the eyes of the bug. Currents are also going to the vibrator. The vibrator are connected to the the legs of the bug. The constant shaking allows the bug to move forward. The main challenge of this project was soldering, which was new to me. I had never solder before so it took some time to learn. But after I got used to soldering, the project was pretty straight forward.
 
 
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<!--# Schematics 
+Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 import cv2
@@ -194,9 +193,8 @@ picam2.stop()
 | CanaKit Raspberry Pi 4 Case | portect the raspberry pi itself from physical damages | $9.99 | <a href="https://www.amazon.com/iUniker-Raspberry-Aluminium-Heatsink-Supply/dp/B07D3S4KBK/ref=pd_bxgy_thbs_d_sccl_2/143-2944956-3619348?pd_rd_w=Zbahh&content-id=amzn1.sym.de9a1315-b9df-4c24-863c-7afcb2e4cc0a&pf_rd_p=de9a1315-b9df-4c24-863c-7afcb2e4cc0a&pf_rd_r=8W9MDS8C1A6AG6HF0GWE&pd_rd_wg=rzCox&pd_rd_r=d3418ecd-a978-4529-becc-d2f7df4319f7&pd_rd_i=B07D3S4KBK&th=1"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Sports Ball Dataset]((https://www.kaggle.com/datasets/mdkabinhasan/sports-ball-dataset))
-- [Example 2]((https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification))
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [Sports Ball Dataset 1]((https://www.kaggle.com/datasets/mdkabinhasan/sports-ball-dataset))
+- [Sports Ball Dataset 2]((https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification))
+
 
 
