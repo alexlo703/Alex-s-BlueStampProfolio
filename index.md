@@ -14,7 +14,7 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
   
 # Final Milestone: Putting Everything Together and Modifications.
 
-To put everything togehter, I had to attach the raspberry pi and camera to my glass. To do this, I first 3D printed out a case that I built for the camera. My case allowed the camera to slide into the case, making it easier to attach to the glasses. 
+To put everything togehter, I had to attach the raspberry pi and camera to my glass. To do this, I first 3D printed out a case that I built for the camera. My case allowed the camera to slide into the case, making it easier to attach to the glasses. Then I hot glued the case onto the glasses and put attached my camera onto the glasses.
 
 For my modifications, I plan to make my smart glasses more about sports. I started with different types of balls for it to identify. To do this, I searched up on google "types of sport balls dataset". I was able to find two different data set link in other resources. The two dataset combined had about 350+ picture for each types of balls. I put all the picture into teachable machines, teaching my model to identify the different types. I then use the code below to use the model on my raspberry pi. Some challenges I had was that there weren't a lot of pictures and had to find more of it. The picture were also not accurate as some of it had other types of balls it in. I had to spend time delete all the incorrect images from the model. 
 
