@@ -47,7 +47,7 @@ For my first milestone, I began by setting up my Raspberry Pi. The components I 
 
 For my starter project, I did the JitterBug. There are many componenets to this project, including  switch, led lights, and the vibrator motor. The way it work is by clikcing on the switch. This allow current to be pass through to led lights, making them light up. This represents the eyes of the bug. Currents are also going to the vibrator. The vibrator are connected to the the legs of the bug. The constant shaking allows the bug to move forward. The main challenge of this project was soldering, which was new to me. I had never solder before so it took some time to learn. But after I got used to soldering, the project was pretty straight forward.
 
-(image0.jpg)
+![JitterBug Image](image0.jpg)
 
 <!--# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
