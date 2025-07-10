@@ -18,7 +18,7 @@ To put everything togehter, I had to attach the raspberry pi and camera to my gl
 
 For my modifications, I plan to make my smart glasses more about sports. I started with different types of balls for it to identify. To do this, I searched up on google "types of sport balls dataset". I was able to find two different data set link in other resources. The two dataset combined had about 350+ picture for each types of balls. I put all the picture into teachable machines, teaching my model to identify the different types. I then use the code below to use the model on my raspberry pi. Some challenges I had was that there weren't a lot of pictures and had to find more of it. The picture were also not accurate as some of it had other types of balls it in. I had to spend time delete all the incorrect images from the model. 
 
-![Glasses](image0(1).jpg)
+![Glasses](image0 (1).jpg)
 
 
 <!--For your final milestone, explain the outcome of your project. Key details to include are:
