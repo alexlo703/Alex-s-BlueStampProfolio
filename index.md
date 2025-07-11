@@ -12,7 +12,7 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
 
 ![Headstone Image](AlexanderL_(2).jpg)
   
-# Final Milestone: Putting Everything Together and Modifications.
+# Final Milestone: Putting Everything Together and Modifications
 
 To put everything together, I had to attach the raspberry pi and camera to my glass. To do this, I first 3D printed out a case that I built for the camera. I design the case and built it out on Onshape. My case allows the camera to slide into the case, making it easy to take the camera on and off. With the case, it is easier hotglued the case onto the glasses. The case is placed in the middle of the glasses, so it can directly point to where you are looking at while not blocking you vision. 
 
