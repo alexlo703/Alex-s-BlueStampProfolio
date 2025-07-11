@@ -21,38 +21,6 @@ For my modifications, I plan to make my smart glasses more about sports. I start
 ![Glasses](glassescam.jpg)
 ![Onshape](OnshapeCam.jpg)
 
-<!--For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE-->
-
-# Second Milestone: Dectection and Text to Speech
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hrnL3eaF_RA?si=hmuBEDchvEbqhB54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-For my second milestone, I was able to add the object detection and text to speech to work. I downloaded TensorFlow including the the detection model. It model also came with a text to speech feature where it will say the object it is confident in detecting. I was able to plug in a headphone into my raspberry pi and allowed it to work. Some challenges was that my raspberry pi was very bugging. This made me restart the pi mulitple times. For my final milestone, I would be making modification. I would have to attach the device to my glasses and come up with some ideas to enhance my project.
-
-
-# First Milestone: Setting up my Pi and taking picutres
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qkuLk5L94jU?si=lQ4hLNNZCEYkl45Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-For my first milestone, I began by setting up my Raspberry Pi. The components I used included the Pi itself, a camera module, capture card, mouse, keyboard, and a micro HDMI to HDMI cable. First, I downloaded the operating system software onto the SD card. Then, I connected all the necessary devices incldung mouse, keyboard, power cord, and capture card. Next, I attached the camera module to the Pi. This step presented one of the main challenges I faced: the camera wasn’t working for several hours. After troubleshooting, I discovered that the issue was a loose connection—the camera wasn’t inserted deep enough into the port. I had to remove the Pi's case in order to secure the connection properly. My goal for the upcoming week is to begin coding and use the provided training model to enable the camera to detect objects.
-
-
-# Starter Project: JitterBug
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jvyMFoV6fmQ?si=jYPeiz33Uxprydh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-For my starter project, I did the JitterBug. There are many componenets to this project, including  switch, led lights, and the vibrator motor. The way it work is by clikcing on the switch. This allow current to be pass through to led lights, making them light up. This represents the eyes of the bug. Currents are also going to the vibrator. The vibrator are connected to the the legs of the bug. The constant shaking allows the bug to move forward. The main challenge of this project was soldering, which was new to me. I had never solder before so it took some time to learn. But after I got used to soldering, the project was pretty straight forward.
-
-![JitterBug Image](image0.jpg)
-
-<!--# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
-
 # Code
 
 ```c++
@@ -181,6 +149,40 @@ cv2.destroyAllWindows()
 picam2.stop()
 
 ```
+
+<!--For your final milestone, explain the outcome of your project. Key details to include are:
+- What you've accomplished since your previous milestone
+- What your biggest challenges and triumphs were at BSE
+- A summary of key topics you learned about
+- What you hope to learn in the future after everything you've learned at BSE-->
+
+# Second Milestone: Dectection and Text to Speech
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hrnL3eaF_RA?si=hmuBEDchvEbqhB54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+For my second milestone, I was able to add the object detection and text to speech to work. I downloaded TensorFlow including the the detection model. It model also came with a text to speech feature where it will say the object it is confident in detecting. I was able to plug in a headphone into my raspberry pi and allowed it to work. Some challenges was that my raspberry pi was very bugging. This made me restart the pi mulitple times. For my final milestone, I would be making modification. I would have to attach the device to my glasses and come up with some ideas to enhance my project.
+
+
+# First Milestone: Setting up my Pi and taking picutres
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qkuLk5L94jU?si=lQ4hLNNZCEYkl45Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+For my first milestone, I began by setting up my Raspberry Pi. The components I used included the Pi itself, a camera module, capture card, mouse, keyboard, and a micro HDMI to HDMI cable. First, I downloaded the operating system software onto the SD card. Then, I connected all the necessary devices incldung mouse, keyboard, power cord, and capture card. Next, I attached the camera module to the Pi. This step presented one of the main challenges I faced: the camera wasn’t working for several hours. After troubleshooting, I discovered that the issue was a loose connection—the camera wasn’t inserted deep enough into the port. I had to remove the Pi's case in order to secure the connection properly. My goal for the upcoming week is to begin coding and use the provided training model to enable the camera to detect objects.
+
+
+# Starter Project: JitterBug
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jvyMFoV6fmQ?si=jYPeiz33Uxprydh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+For my starter project, I did the JitterBug. There are many componenets to this project, including  switch, led lights, and the vibrator motor. The way it work is by clikcing on the switch. This allow current to be pass through to led lights, making them light up. This represents the eyes of the bug. Currents are also going to the vibrator. The vibrator are connected to the the legs of the bug. The constant shaking allows the bug to move forward. The main challenge of this project was soldering, which was new to me. I had never solder before so it took some time to learn. But after I got used to soldering, the project was pretty straight forward.
+
+![JitterBug Image](image0.jpg)
+
+<!--# Schematics 
+Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
+
+
 
 # Bill of Materials
 
