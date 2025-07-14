@@ -12,7 +12,11 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
 
 ![Headstone Image](AlexanderL_(2).jpg)
   
-# Final Milestone: Putting Everything Together and Modifications
+# Fourth Milstone: Gemini 
+
+For my next milestone, I decided to add gemini into my raspberry pi. To do this, I had to first get a gemini api key. I then installed google.genertiveai
+
+# Third Milestone: Putting Everything Together and Modifications
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tK_v8TLOG5g?si=rV_tHapDcVUGc7e-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -150,6 +154,59 @@ while True:
 
 cv2.destroyAllWindows()
 picam2.stop()
+
+
+# Modifications Code
+
+import speech_recognition as sr
+import google.generativeai as genai
+import os
+
+#  Set up Gemini API
+genai.configure(api_key="AIzaSyALhjz0MSktymeCYsnOdFZlFKJy5jeuvXI")
+model = genai.GenerativeModel("gemini-1.5-flash")
+chat = model.start_chat()
+
+#  Set up microphone + recognizer
+r = sr.Recognizer()
+mic = sr.Microphone()
+
+#  Speak function using espeak + aplay
+def speak(text):
+    print(" Speaking...")
+    os.system(f'espeak "{text}" --stdout | aplay')
+
+print("Voice Assistant Ready. Say 'exit' to stop.\n")
+
+while True:
+    try:
+        with mic as source:
+            print("🎙 Listening...")
+            r.adjust_for_ambient_noise(source)
+            audio = r.listen(source)
+
+        print(" Recognizing...")
+        question = r.recognize_google(audio)
+        print(f"You: {question}")
+
+        if question.lower() in ["exit", "quit", "stop"]:
+            speak("Goodbye!")
+            break
+
+        print(" Asking Gemini...")
+        response = chat.send_message(question)
+        answer = response.text.strip()
+        print("Gemini:", answer)
+
+        speak(answer)
+
+    except sr.UnknownValueError:
+        print("Sorry, I didn't catch that.")
+        speak("Sorry, I didn't catch that.")
+
+    except Exception as e:
+        print("Error:", e)
+        speak("There was an error.")
 
 ```
 
