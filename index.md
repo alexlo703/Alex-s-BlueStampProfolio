@@ -14,11 +14,40 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
   
 # Fourth Milstone: Gemini 
 
-For my next milestone, I decided to add gemini into my raspberry pi. To do this, I had to first get a gemini api key. I then installed google.genertiveai
+For my next modification, I want my smart glass to havd gemini in it. My idea was that when I ask a question though the microphone, it would send it to gemini and speak out the response. My first step was to get gemini into my raspberry pi and allow me to text it. I first had to get my Gemini API Key, which I got from the link at resource 3. The model of Gemini that I was using was Gemini 1.5 flash. I then install google.generative, which is a Python library provided by Google to interact with Gemini models. Now, when I run this progrom, my name shows up like this Alex: . This means that I can now type an interact with it and when I'm done, all I have to type it "quit" or "exit".
 
+My next step was to allow it to listen to my quesiton and response. To do this, I had to install speech recgnition. This allows it to reconigize everything that I ask. The rest of the code was pretty simliar to the first code expect I have to include the listening and recongizing parts to the code.   
 # Code
 
 ```c++
+#Gemini
+import google.generativeai as genai
+
+# Replace with your real API key from https://aistudio.google.com/app/apikey
+API_KEY = "AIzaSyALhjz0MSktymeCYsnOdFZlFKJy5jeuvXI"
+
+# Set up Gemini API
+genai.configure(api_key=API_KEY)
+
+# Load Gemini Pro model
+model = genai.GenerativeModel("gemini-1.5-flash")
+
+# Simple chat loop
+print("Mr. AI – type 'exit' to quit\n")
+while True:
+    user_input = input("Alex: ")
+    if user_input.lower() in ["exit", "quit"]:
+        print("Exiting...")
+        break
+
+    try:
+        response = model.generate_content(user_input)
+        print("Gemini:", response.text)
+    except Exception as e:
+        print("Error:", e)
+
+
+#Gemini Voice
 import speech_recognition as sr
 import google.generativeai as genai
 import os
@@ -263,6 +292,6 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Other Resources/Examples
 - [Sports Ball Dataset 1]((https://www.kaggle.com/datasets/mdkabinhasan/sports-ball-dataset))
 - [Sports Ball Dataset 2]((https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification))
-
+- [Gemini Api Key]([(https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification)](https://aistudio.google.com/app/apikey))
 
 
