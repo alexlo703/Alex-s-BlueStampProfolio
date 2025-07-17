@@ -1,6 +1,6 @@
  # Smart Glasses
 
-The Smart Glasses is basically a object detection machine. It is able to detect and speaks out the object it thinks it is detecting. Through this project, I was able to gain insights on different parts of engineering like machine learning. 
+This project focused on creating a pair of object recognition glasses designed to help visually impaired users identify objects around them in real time. Throughout the process, I deepened my understanding of computer vision, wearable technology, and machine learning. The result was a working prototype that successfully allow users to interact with their surroundings.
 
 
 
