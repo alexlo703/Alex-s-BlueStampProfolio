@@ -60,7 +60,7 @@ genai.configure(api_key="AIzaSyALhjz0MSktymeCYsnOdFZlFKJy5jeuvXI")
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat()
 
-#  Set up microphone + recognizer
+# 🎤 Set up microphone + recognizer
 r = sr.Recognizer()
 mic = sr.Microphone()
 
@@ -87,11 +87,16 @@ while True:
             break
 
         print(" Asking Gemini...")
-        response = chat.send_message(question)
-        answer = response.text.strip()
-        print("Gemini:", answer)
+        full_response = chat.send_message(question).text.strip()
+        print("Gemini (full):", full_response)
 
-        speak(answer)
+        print(" Summarizing response...")
+        brief_response = chat.send_message(
+            f"Summarize this in under 10 seconds of spoken time: {full_response}"
+        ).text.strip()
+        print("Gemini (brief):", brief_response)
+
+        speak(brief_response)
 
     except sr.UnknownValueError:
         print("Sorry, I didn't catch that.")
