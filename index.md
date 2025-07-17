@@ -1,4 +1,4 @@
-# Smart Glasses
+ # Smart Glasses
 
 The Smart Glasses is basically a object detection machine. It is able to detect and speaks out the object it thinks it is detecting. Through this project, I was able to gain insights on different parts of engineering like machine learning. 
 
@@ -14,9 +14,12 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
   
 # Fourth Milstone: Gemini 
 
-For my next modification, I want my smart glass to havd gemini in it. My idea was that when I ask a question though the microphone, it would send it to gemini and speak out the response. My first step was to get gemini into my raspberry pi and allow me to text it. I first had to get my Gemini API Key, which I got from the link at resource 3. The model of Gemini that I was using was Gemini 1.5 flash. I then install google.generativeai, which is a Python library provided by Google to interact with Gemini models. Now, when I run this progrom, my name shows up like this Alex: . This means that I can now type an interact with it and when I'm done, all I have to type it "quit" or "exit".
+For my next modification, I wanted to integrate Gemini into my smart glasses. The idea was to allow the glasses to respond to voice questions using Gemini’s AI. When I ask a question through the microphone, it would send the prompt to Gemini and speak the answer back to me.
 
-My next step was to allow it to listen to my quesiton and response. To do this, I had to install speech recgnition. This allows it to reconigize everything that I ask. The rest of the code was pretty simliar to the first code expect I have to include the listening and recongizing parts to the code.   
+My first step was getting Gemini running on my Raspberry Pi with basic text interaction. I started by retrieving my Gemini API key from the link in Resource 3. I used the Gemini 1.5 Flash model for this project. Then, I installed the google.generativeai Python library, which lets you interact with Gemini models. Once the setup was complete, I ran the program and saw my name appear as Alex:—this meant I could now type messages directly to Gemini. To end the session, I simply type "quit" or "exit".
+
+The next step was enabling voice input and output. To do this, I installed the speech_recognition library, which allows the program to listen to and recognize what I’m saying. From there, the rest of the code was fairly similar to the original version, except I had to add parts for listening to my voice and converting it into text before sending it to Gemini.
+
 # Code
 
 ```c++
