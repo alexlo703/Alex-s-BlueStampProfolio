@@ -18,7 +18,7 @@ For my next modification, I wanted to integrate Gemini into my smart glasses. Th
 
 My first step was getting Gemini running on my Raspberry Pi with basic text interaction. I started by retrieving my Gemini API key from the link in Resource 3. I used the Gemini 1.5 Flash model for this project. Then, I installed the google.generativeai Python library, which lets you interact with Gemini models. Once the setup was complete, I ran the program and saw my name appear as Alex:—this meant I could now type messages directly to Gemini. To end the session, I simply type "quit" or "exit".
 
-The next step was enabling voice input and output. To do this, I installed the speech_recognition library, which allows the program to listen to and recognize what I’m saying. From there, the rest of the code was fairly similar to the original version, except I had to add parts for listening to my voice and converting it into text before sending it to Gemini.
+The next step was enabling voice input and output. To do this, I installed the speech_recognition library, which allows the program to listen to and recognize what I’m saying. From there, the rest of the code was fairly similar to the original version, except I had to add parts for listening to my voice and converting it into text before sending it to Gemini. One challenge was that the reponse of the questions were too long, with one chemestry question taking 5 minutes to response. To solve this issue, I add a code where they would summarize the answer so it would speak no more then 10 seconds. This makes it so that I could get the infomation I need without it taking a long time. 
 
 # Code
 
