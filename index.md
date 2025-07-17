@@ -14,7 +14,7 @@ The Smart Glasses is basically a object detection machine. It is able to detect 
   
 # Fourth Milstone: Gemini 
 
-For my next modification, I wanted to integrate Gemini into my smart glasses. The idea was to allow the glasses to respond to voice questions using Gemini’s AI. When I ask a question through the microphone, it would send the prompt to Gemini and speak the answer back to me.
+For my next modification, I wanted to integrate Gemini into my smart glasses. The idea was to allow the glasses to respond to voice questions using Gemini AI. When I ask a question through the microphone, it would send the prompt to Gemini and speak the answer back to me.
 
 My first step was getting Gemini running on my Raspberry Pi with basic text interaction. I started by retrieving my Gemini API key from the link in Resource 3. I used the Gemini 1.5 Flash model for this project. Then, I installed the google.generativeai Python library, which lets you interact with Gemini models. Once the setup was complete, I ran the program and saw my name appear as Alex:—this meant I could now type messages directly to Gemini. To end the session, I simply type "quit" or "exit".
 
