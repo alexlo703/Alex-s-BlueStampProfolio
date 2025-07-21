@@ -50,13 +50,12 @@ while True:
         print("Error:", e)
 
 
-#Gemini Voice
-import speech_recognition as sr
+#Gemini Voiceimport speech_recognition as sr
 import google.generativeai as genai
 import os
 
 #  Set up Gemini API
-genai.configure(api_key="AIzaSyALhjz0MSktymeCYsnOdFZlFKJy5jeuvXI")
+genai.configure(api_key="AIzaSyCatcNg-FcfQMmaL73exMSs1xqQbEpBfy0")
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat()
 
@@ -105,6 +104,7 @@ while True:
     except Exception as e:
         print("Error:", e)
         speak("There was an error.")
+
 
 
 ```
