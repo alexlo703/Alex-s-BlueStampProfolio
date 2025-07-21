@@ -1,4 +1,4 @@
- # Smart Glasses
+# Smart Glasses
 
 This project focused on creating a pair of object recognition glasses designed to help visually impaired users identify objects around them in real time. Throughout the process, I deepened my understanding of computer vision, wearable technology, and machine learning. The result was a working prototype that successfully allow users to interact with their surroundings.
 
